@@ -110,5 +110,9 @@ class AdminController extends Controller
 
         return app(LogoutResponse::class);
     }
+
+    public function registerForm(){
+    	return view('auth.register_admin', ['guard' => 'admin']);
+    }
 }
 

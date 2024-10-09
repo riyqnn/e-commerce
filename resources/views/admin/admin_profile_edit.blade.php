@@ -56,7 +56,7 @@
 								</div>	
 
 								<div class="col-6">
-									<img class="rounded-circle" id="showImage" src="{{(!empty($adminData->profile_photo_path))? url('upload/admin_images/'.$adminData->profile_photo_path):url('upload/no_image.jpg') }}" alt="User " style="width: 100px; height:100px;">
+									<img class="rounded-circle" id="showImage" src="{{(!empty($adminData->profile_photo_path))? url('upload/admin_image/'.$adminData->profile_photo_path):url('upload/no_image.jpg') }}" alt="User " style="width: 100px; height:100px;">
 								</div>	
 
 
